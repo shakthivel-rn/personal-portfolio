@@ -2,12 +2,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: monospace;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background-color: #14213d;
-  color: #fca311;
+  background-color: #0A192F;
+  color: #f1f4fd;
 }

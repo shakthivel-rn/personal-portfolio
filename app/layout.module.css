@@ -1,13 +1,13 @@
 .mainLayout {
     display: flex;
     flex-direction: row;
-    column-gap: 10px;
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 40px;
+    justify-content: end;
 }
 
 .content {
-    flex: 1
+    width: 50%;
+    text-align: justify;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 100px;
 }

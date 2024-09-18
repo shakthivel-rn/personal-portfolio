@@ -13,10 +13,11 @@ export default function Page() {
     <div className={styles.skillSection}>
       <span className={styles.skillSectionTitle}>What I'm Doing</span>
       <div className={styles.skills}>
-        {skills.map(({ title, description }, index) => <Card key={index} title={title} description={description} />)}
+        {skills.map(({ imgSrc, title, description }, index) => <Card key={index} imgSrc={imgSrc} title={title} description={description} />)}
       </div>
     </div>
+    {/* <a href="https://www.flaticon.com/free-icons/front-end" title="front end icons">Icons by Flat Icons</a> */}
   </div>
 }
 
-const skills = [{ title: 'UI Component Development', description: 'Build high-quality, reusable React components to speed up development and ensure consistent UI/UX' }, { title: 'UI Rendering Optimization', description: 'Craft modern, high-quality designs with a professional touch for exceptional user experiences' }, { title: 'API Development and Optimization', description: 'Developed robust APIs with scalable architecture, optimizing performance and cost efficiency' }, { title: 'Database Query Efficiency', description: 'Engineered efficient database queries to enhance data retrieval speed and overall performance' }]
+const skills = [{ imgSrc: '/images/ui.png', title: 'UI Component Development', description: 'Build high-quality, reusable React components to speed up development and ensure consistent UI/UX' }, { imgSrc: '/images/optimization.png', title: 'UI Rendering Optimization', description: 'Craft modern, high-quality designs with a professional touch for exceptional user experiences' }, { imgSrc: '/images/api.png', title: 'API Development and Optimization', description: 'Developed robust APIs with scalable architecture, optimizing performance and cost efficiency' }, { imgSrc: '/images/query.png', title: 'Database Query Efficiency', description: 'Engineered efficient database queries to enhance data retrieval speed and overall performance' }]

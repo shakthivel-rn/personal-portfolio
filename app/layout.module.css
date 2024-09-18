@@ -1,13 +1,12 @@
 .mainLayout {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: var(--font-montserrat);
 }
 
 .content {
-    width: 50%;
-    text-align: justify;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding-right: 100px;
+    padding: 58px;
+    line-height: 1.5;
 }

@@ -2,12 +2,18 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: monospace;
+  box-sizing: border-box;
 }
 
 body {
   padding: 0;
   margin: 0;
-  background-color: #0A192F;
-  color: #f1f4fd;
+  background: #4b6cb7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #182848, #364e85);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #182848, #243d6b);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #edf2f4;
 }

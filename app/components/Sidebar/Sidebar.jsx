@@ -22,8 +22,8 @@ export function Sidebar() {
                     </ul>
                 </div>
                 <div className={styles.iconList}>
-                    <span><Image src={'/images/github.png'} width={35} height={35} /></span>
-                    <span><Image src={'/images/linkedin.png'} width={35} height={35} /></span>
+                    <a href='https://github.com/shakthivel-rn' target='_blank'><Image src={'/images/github.png'} width={35} height={35}></Image></a>
+                    <a href='https://www.linkedin.com/in/shakthivel-ramesh-nirmala-0262921b0' target='_blank'><Image src={'/images/linkedin.png'} width={35} height={35} /></a>
                     <span><Image src={'/images/codepen.png'} width={35} height={35} /></span>
                 </div>
             </div>

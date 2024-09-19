@@ -29,9 +29,13 @@ export function Recommendation({ name, jobTitle, company, recommendation }) {
             <a
               href="https://www.linkedin.com/in/shakthivel-ramesh-nirmala-0262921b0/details/recommendations/"
               target="_blank"
-              className={styles.recommendationLink}
             >
-              <Image src={"/images/redirect.png"} width={12} height={12} />
+              <Image
+                src={"/images/redirect.png"}
+                width={12}
+                height={12}
+                className={styles.recommendationLink}
+              />
             </a>
           </span>
           <span>{`${jobTitle} at ${company}`}</span>

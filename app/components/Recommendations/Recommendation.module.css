@@ -3,13 +3,6 @@
     padding: 25px 30px 35px 30px;
     border-radius: 14px;
     display: flex;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-
-.recommendation:hover {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    transform: translate(2px, -3px);
 }
 
 .quotes {

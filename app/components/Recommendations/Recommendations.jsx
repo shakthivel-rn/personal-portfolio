@@ -22,6 +22,7 @@ export function Recommendations() {
       <div className={styles.navigationBar}>
         {recommendations.map((_, index) => (
           <button
+            key={index}
             className={`${styles.navigation} ${
               currentIndex === index ? styles.navigationActive : ""
             }`}

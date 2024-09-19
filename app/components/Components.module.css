@@ -7,7 +7,7 @@
 }
 
 .section {
-    padding-top: 58px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     row-gap: 25px;

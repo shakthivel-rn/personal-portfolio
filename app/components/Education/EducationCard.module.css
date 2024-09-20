@@ -1,0 +1,89 @@
+.education {
+    background: rgba(10, 25, 47, 0);
+    padding: 25px 30px 25px 30px;
+    border-radius: 14px;
+    display: flex;
+    column-gap: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(0px);
+    transition: all 0.3s ease-in-out;
+}
+
+.education:hover {
+    backdrop-filter: blur(10px);
+    background: rgba(10, 25, 47, 0.3);
+}
+
+.dateRange {
+    flex: 0 0 90px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dateDetails {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.educationDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.collegeDetails {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collegeLogo {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.education:hover .collegeLogo {
+    opacity: 1;
+}
+
+.collegeName {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.degreeDetails {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #edf2f4;
+    border-radius: 100%;
+}
+
+.dash {
+    width: 10px;
+    height: 1px;
+    background-color: #edf2f4;
+}
+
+.courseSection {
+    display: flex;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.pill {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(0, 119, 182, 0.3);
+    font-size: 12px;
+    font-weight: 200;
+    border-radius: 20px;
+}

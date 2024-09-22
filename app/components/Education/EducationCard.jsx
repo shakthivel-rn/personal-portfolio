@@ -30,9 +30,9 @@ export function EducationCard({
             </div>
           </div>
           <Image
-            src={collegeLogo}
-            width={50}
-            height={50}
+            src={collegeLogo.src}
+            width={collegeLogo.width}
+            height={collegeLogo.height}
             className={styles.collegeLogo}
           />
         </div>
@@ -55,5 +55,10 @@ const Dash = () => {
 };
 
 const Pill = ({ course }) => {
-  return <div className={styles.pill}>{course}</div>;
+  return (
+    <div className={styles.pill}>
+      <Image src={course.logo} width={20} height={20} />
+      {course.name}
+    </div>
+  );
 };

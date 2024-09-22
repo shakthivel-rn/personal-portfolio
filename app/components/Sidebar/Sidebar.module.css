@@ -69,6 +69,10 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.sideBarMiddleItemActive::after {
+    transform: scaleX(1);
+}
+
 .sideBarMiddleItem:hover::after {
     transform: scaleX(1);
 }

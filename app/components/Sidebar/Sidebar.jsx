@@ -1,7 +1,14 @@
 import styles from "./Sidebar.module.css";
 import Image from "next/image";
 
-export function Sidebar() {
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+
+export function Sidebar({ tab, setTab }) {
   return (
     <div>
       <div className={styles.sidebar}>
@@ -18,10 +25,39 @@ export function Sidebar() {
             </span>
           </div>
           <ul className={styles.sideBarMiddle}>
-            <li className={styles.sideBarMiddleItem}>About</li>
-            <li className={styles.sideBarMiddleItem}>Education</li>
-            <li className={styles.sideBarMiddleItem}>Experience</li>
-            <li className={styles.sideBarMiddleItem}>Portfolio</li>
+            <li
+              className={`${styles.sideBarMiddleItem} ${
+                tab === 0 ? styles.sideBarMiddleItemActive : ""
+              }`}
+              onClick={() => {
+                setTab(0);
+                scrollToTop();
+              }}
+            >
+              About
+            </li>
+            <li
+              className={`${styles.sideBarMiddleItem} ${
+                tab === 1 ? styles.sideBarMiddleItemActive : ""
+              }`}
+              onClick={() => {
+                setTab(1);
+                scrollToTop();
+              }}
+            >
+              Experience
+            </li>
+            <li
+              className={`${styles.sideBarMiddleItem} ${
+                tab === 2 ? styles.sideBarMiddleItemActive : ""
+              }`}
+              onClick={() => {
+                setTab(2);
+                scrollToTop();
+              }}
+            >
+              Portfolio
+            </li>
           </ul>
         </div>
         <div className={styles.iconList}>

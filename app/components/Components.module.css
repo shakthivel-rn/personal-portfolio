@@ -53,3 +53,9 @@
 .navigationActive {
     background-color: #0077b6;
 }
+
+.technologies {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}

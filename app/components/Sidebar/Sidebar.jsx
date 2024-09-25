@@ -1,5 +1,5 @@
 import styles from "./Sidebar.module.css";
-import Image from "next/image";
+import { iconMap } from "../../../public/images/icons/iconsMap";
 
 function scrollToTop() {
   window.scrollTo({
@@ -7,6 +7,10 @@ function scrollToTop() {
     behavior: "smooth",
   });
 }
+
+const GitHub = iconMap["github"];
+const LinkedIn = iconMap["linkedin"];
+const CodePen = iconMap["codepen"];
 
 export function Sidebar({ tab, setTab }) {
   return (
@@ -62,18 +66,13 @@ export function Sidebar({ tab, setTab }) {
         </div>
         <div className={styles.iconList}>
           <a href="https://github.com/shakthivel-rn" target="_blank">
-            <Image
-              src={"/images/github.png"}
-              width={35}
-              height={35}
-              className={styles.icon}
-            />
+            <GitHub width={35} height={35} className={styles.icon} />
           </a>
           <a
             href="https://www.linkedin.com/in/shakthivel-ramesh-nirmala-0262921b0"
             target="_blank"
           >
-            <Image
+            <LinkedIn
               src={"/images/linkedin.png"}
               width={35}
               height={35}
@@ -81,12 +80,7 @@ export function Sidebar({ tab, setTab }) {
             />
           </a>
           <span>
-            <Image
-              src={"/images/codepen.png"}
-              width={35}
-              height={35}
-              className={styles.icon}
-            />
+            <CodePen width={35} height={35} className={styles.icon} />
           </span>
         </div>
       </div>

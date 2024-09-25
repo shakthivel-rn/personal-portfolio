@@ -1,3 +1,4 @@
+import { iconMap } from "@/public/images/icons/iconsMap";
 import styles from "./ExperienceCard.module.css";
 import Image from "next/image";
 
@@ -32,6 +33,7 @@ export function ExperienceCard({
             width={companyLogo.width}
             height={companyLogo.height}
             className={styles.companyLogo}
+            alt="companyLogo"
           />
         </div>
         <div className={styles.jobDetails}>
@@ -51,19 +53,29 @@ export function ExperienceCard({
   );
 }
 
-const Dot = () => {
-  return <div className={styles.dot}></div>;
-};
-
 const Dash = () => {
   return <div className={styles.dash}></div>;
 };
 
 const Pill = ({ skill }) => {
+  const IconComponent = iconMap[skill.logo];
+
   return (
     <div className={styles.pill}>
-      <Image src={skill.logo} width={20} height={20} />
+      {set.has(skill.name) ? (
+        <Image src={skill.logo} width={20} height={20} alt="skillLogo" />
+      ) : (
+        <IconComponent
+          src={skill.logo}
+          width={20}
+          height={20}
+          style={{ fill: skill.color }}
+        />
+      )}
+
       {skill.name}
     </div>
   );
 };
+
+const set = new Set(["Aspose", "MATLAB"]);

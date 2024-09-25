@@ -84,4 +84,5 @@
 
 .icon {
     cursor: pointer;
+    display: flex;
 }

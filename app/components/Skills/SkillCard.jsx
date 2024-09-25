@@ -1,12 +1,13 @@
 import styles from "./SkillCard.module.css";
-import Image from "next/image";
+import { iconMap } from "../../../public/images/icons/iconsMap";
 
 export const Card = ({ title, description, imgSrc }) => {
-  console.log(imgSrc);
+  const IconComponent = iconMap[imgSrc];
+
   return (
     <div className={styles.card}>
       <div className={styles.icon}>
-        <Image src={imgSrc} width={50} height={50} />
+        <IconComponent src={imgSrc} width={50} height={50} />
       </div>
       <div className={styles.cardDetails}>
         <span className={styles.cardTitle}>{title}</span>

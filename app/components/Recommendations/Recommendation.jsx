@@ -2,7 +2,10 @@
 
 import { useState } from "react";
 import styles from "./Recommendation.module.css";
-import Image from "next/image";
+import { iconMap } from "../../../public/images/icons/iconsMap";
+
+const Quotes = iconMap["quotes"];
+const Redirect = iconMap["redirect"];
 
 export function Recommendation({ name, jobTitle, company, recommendation }) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -10,7 +13,7 @@ export function Recommendation({ name, jobTitle, company, recommendation }) {
   return (
     <div className={styles.recommendation}>
       <div className={styles.quotes}>
-        <Image src={"/images/quotes.png"} width={50} height={50} />
+        <Quotes width={50} height={50} />
       </div>
       <div className={styles.recommendationDetails}>
         <blockquote
@@ -30,8 +33,7 @@ export function Recommendation({ name, jobTitle, company, recommendation }) {
               href="https://www.linkedin.com/in/shakthivel-ramesh-nirmala-0262921b0/details/recommendations/"
               target="_blank"
             >
-              <Image
-                src={"/images/redirect.png"}
+              <Redirect
                 width={12}
                 height={12}
                 className={styles.recommendationLink}

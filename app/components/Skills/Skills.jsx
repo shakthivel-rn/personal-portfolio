@@ -44,25 +44,25 @@ export function Skills() {
 
 const skills = [
   {
-    imgSrc: "/images/ui.png",
+    imgSrc: "ui",
     title: "UI Component Development",
     description:
       "Build high-quality, reusable React components to speed up development and ensure consistent UI/UX",
   },
   {
-    imgSrc: "/images/optimization.png",
+    imgSrc: "optimization",
     title: "UI Rendering Optimization",
     description:
       "Craft modern, high-quality designs with a professional touch for exceptional user experiences",
   },
   {
-    imgSrc: "/images/api.png",
+    imgSrc: "api",
     title: "API Development and Optimization",
     description:
       "Developed robust APIs with scalable architecture, optimizing performance and cost efficiency",
   },
   {
-    imgSrc: "/images/query.png",
+    imgSrc: "db",
     title: "Database Query Efficiency",
     description:
       "Engineered efficient database queries to enhance data retrieval speed and overall performance",

@@ -45,27 +45,27 @@ const education = [
     coursework: [
       {
         name: "Enterprise Distributed Systems",
-        logo: "/images/college/distributed.png",
+        logo: "distributed",
       },
       {
         name: "Enterprise Application Development",
-        logo: "/images/college/application.png",
+        logo: "application",
       },
       {
         name: "Enterprise Software Platforms",
-        logo: "/images/college/software.png",
+        logo: "software",
       },
       {
         name: "Software Systems Engineering",
-        logo: "/images/college/systems.png",
+        logo: "systems",
       },
       {
         name: "Software Security Technologies",
-        logo: "/images/college/security.png",
+        logo: "security",
       },
       {
         name: "Data Mining",
-        logo: "/images/college/datamining.png",
+        logo: "datamining",
       },
     ],
   },
@@ -79,31 +79,31 @@ const education = [
     coursework: [
       {
         name: "Data Structures",
-        logo: "/images/college/datastructures.png",
+        logo: "datastructures",
       },
       {
         name: "Database Management Systems",
-        logo: "/images/college/database.png",
+        logo: "database",
       },
       {
         name: "Design and Analysis of Algorithms",
-        logo: "/images/college/algorithms.png",
+        logo: "algorithms",
       },
       {
         name: "Operating Systems",
-        logo: "/images/college/operatingsystem.png",
+        logo: "operatingsystem",
       },
       {
         name: "Object Oriented Analysis and Design",
-        logo: "/images/college/object.png",
+        logo: "object",
       },
       {
         name: "Java and Internet Programming",
-        logo: "/images/skills/java.png",
+        logo: "java",
       },
       {
         name: "Data Communication and Computer Networks",
-        logo: "/images/college/networks.png",
+        logo: "networks",
       },
     ],
   },

@@ -1,3 +1,4 @@
+import { iconMap } from "@/public/images/icons/iconsMap";
 import styles from "./EducationCard.module.css";
 import Image from "next/image";
 
@@ -34,6 +35,7 @@ export function EducationCard({
             width={collegeLogo.width}
             height={collegeLogo.height}
             className={styles.collegeLogo}
+            alt="education"
           />
         </div>
         <div className={styles.courseSection}>
@@ -55,9 +57,11 @@ const Dash = () => {
 };
 
 const Pill = ({ course }) => {
+  const IconComponent = iconMap[course.logo];
+
   return (
     <div className={styles.pill}>
-      <Image src={course.logo} width={20} height={20} />
+      <IconComponent width={20} height={20} />
       {course.name}
     </div>
   );

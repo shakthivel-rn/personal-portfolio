@@ -53,18 +53,18 @@ const skills = [
     imgSrc: "optimization",
     title: "UI Rendering Optimization",
     description:
-      "Craft modern, high-quality designs with a professional touch for exceptional user experiences",
+      "Optimize UI performance to ensure fast rendering, smooth interactions, and an overall improved user experience.",
   },
   {
     imgSrc: "api",
     title: "API Development and Optimization",
     description:
-      "Developed robust APIs with scalable architecture, optimizing performance and cost efficiency",
+      "Develop robust APIs with scalable architecture, optimizing performance and cost efficiency",
   },
   {
     imgSrc: "db",
     title: "Database Query Efficiency",
     description:
-      "Engineered efficient database queries to enhance data retrieval speed and overall performance",
+      "Engineer efficient database queries to enhance data retrieval speed and overall performance",
   },
 ];

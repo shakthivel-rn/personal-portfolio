@@ -2,6 +2,8 @@ import { iconMap } from "@/public/images/icons/iconsMap";
 import styles from "./ExperienceCard.module.css";
 import Image from "next/image";
 
+const Redirect = iconMap["redirect"];
+
 export function ExperienceCard({
   startDate,
   endDate,
@@ -39,7 +41,19 @@ export function ExperienceCard({
         <div className={styles.jobDetails}>
           <ul>
             {jobDetails.map((detail, index) => (
-              <li key={index}>{detail}</li>
+              <li key={index}>
+                {detail.text}
+                {!!detail.link && (
+                  <a href={detail.link} target="_blank">
+                    <Redirect
+                      width={12}
+                      height={12}
+                      style={{ fill: "#3578E5" }}
+                      className={styles.experienceLink}
+                    />
+                  </a>
+                )}
+              </li>
             ))}
           </ul>
         </div>

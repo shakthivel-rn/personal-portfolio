@@ -1,12 +1,27 @@
 .mainLayout {
     display: grid;
-    grid-template-columns: 40% 60%;
-    max-width: 1200px;
-    margin: 0 auto;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 0 10px;
     font-family: var(--font-montserrat);
 }
 
+@media (min-width: 768px) {
+    .mainLayout {
+        grid-template-columns: 40% 60%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+}
+
 .content {
-    padding: 50px 20px 50px 20px;
+    padding: 20px 10px;
     line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 50px 20px;
+    }
 }

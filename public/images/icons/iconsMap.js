@@ -23,6 +23,8 @@ import Java from "./technologies/java.svg";
 import CSharp from "./technologies/csharp.svg";
 import DotNet from "./technologies/dotnet.svg";
 import Sensor from "./technologies/sensor.svg";
+import DynamoDB from "./technologies/amazondynamodb.svg";
+import Lambda from "./technologies/awslambda.svg";
 
 import Algorithms from "./education/algorithms.svg";
 import Application from "./education/application.svg";
@@ -61,6 +63,8 @@ export const iconMap = {
   csharp: CSharp,
   dotnet: DotNet,
   sensor: Sensor,
+  dynamodb: DynamoDB,
+  lambda: Lambda,
   distributed: Distributed,
   application: Application,
   software: Software,

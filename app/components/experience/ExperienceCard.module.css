@@ -3,10 +3,18 @@
     padding: 25px 30px 25px 30px;
     border-radius: 14px;
     display: flex;
-    column-gap: 20px;
+    flex-direction: column;
+    row-gap: 10px;
     overflow: hidden;
     backdrop-filter: blur(0px);
     transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .experience {
+        flex-direction: row;
+        column-gap: 20px;
+    }
 }
 
 .experience:hover {
@@ -15,9 +23,15 @@
 }
 
 .dateRange {
-    flex: 0 90px;
+    flex: 1;
     font-size: 15px;
     font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .dateRange {
+        flex: 0 90px;
+    }
 }
 
 .dateDetails {
@@ -53,6 +67,18 @@
 .jobDetails {
     font-size: 13px;
     font-weight: 300;
+}
+
+.jobDetails>ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.experienceLink,
+.experienceLink * {
+    margin-left: 5px;
+    cursor: pointer;
 }
 
 .companyLogo {

@@ -24,8 +24,8 @@ export function Sidebar({ tab, setTab }) {
             </div>
             <span className={styles.title}>Software Engineer</span>
             <span className={styles.description}>
-              I develop innovative, secure applications combining responsive
-              front-end and robust backend solutions.
+              I engineer high-quality scalable systems, focused on performance
+              and seamless user experience
             </span>
           </div>
           <ul className={styles.sideBarMiddle}>
@@ -51,7 +51,7 @@ export function Sidebar({ tab, setTab }) {
             >
               Experience
             </li>
-            <li
+            {/* <li
               className={`${styles.sideBarMiddleItem} ${
                 tab === 2 ? styles.sideBarMiddleItemActive : ""
               }`}
@@ -61,7 +61,7 @@ export function Sidebar({ tab, setTab }) {
               }}
             >
               Portfolio
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className={styles.iconList}>
@@ -71,17 +71,13 @@ export function Sidebar({ tab, setTab }) {
           <a
             href="https://www.linkedin.com/in/shakthivel-ramesh-nirmala-0262921b0"
             target="_blank"
+            className={styles.icon}
           >
-            <LinkedIn
-              src={"/images/linkedin.png"}
-              width={35}
-              height={35}
-              className={styles.icon}
-            />
+            <LinkedIn src={"/images/linkedin.png"} width={35} height={35} />
           </a>
-          <span>
+          {/* <span>
             <CodePen width={35} height={35} className={styles.icon} />
-          </span>
+          </span> */}
         </div>
       </div>
     </div>

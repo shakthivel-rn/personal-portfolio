@@ -26,7 +26,7 @@ export function Skills() {
       </div>
 
       <div className={styles.section}>
-        <span className={styles.title}>What I'm Doing</span>
+        <span className={styles.title}>What I&apos;m Doing</span>
         <div className={styles.skills}>
           {skills.map(({ imgSrc, title, description }, index) => (
             <Card

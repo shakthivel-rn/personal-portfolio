@@ -1,6 +1,6 @@
 "use client";
 
-import { Sidebar } from "./components/sidebar/Sidebar";
+import { Sidebar } from "./components/Sidebar/Sidebar";
 import styles from "./layout.module.css";
 import "./globals.css";
 import { Montserrat } from "next/font/google";

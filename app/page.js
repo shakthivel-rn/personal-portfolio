@@ -1,10 +1,10 @@
 "use client";
 
-import { Skills } from "./components/skills/Skills";
-import { Recommendations } from "./components/recommendations/Recommendations";
-import { Education } from "./components/education/Education";
-import { Experience } from "./components/experience/Experience";
-import { Technologies } from "./components/skills/Technologies";
+import { Skills } from "./components/Skills/Skills";
+import { Recommendations } from "./components/Recommendations/Recommendations";
+import { Education } from "./components/Education/Education";
+import { Experience } from "./components/Experience/Experience";
+import { Technologies } from "./components/Skills/Technologies";
 import { useLayout } from "./useLayout";
 
 export default function Page() {

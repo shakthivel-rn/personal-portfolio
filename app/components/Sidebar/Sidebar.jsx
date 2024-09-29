@@ -51,7 +51,7 @@ export function Sidebar({ tab, setTab }) {
             >
               Experience
             </li>
-            {/* <li
+            <li
               className={`${styles.sideBarMiddleItem} ${
                 tab === 2 ? styles.sideBarMiddleItemActive : ""
               }`}
@@ -61,7 +61,7 @@ export function Sidebar({ tab, setTab }) {
               }}
             >
               Portfolio
-            </li> */}
+            </li>
           </ul>
         </div>
         <div className={styles.iconList}>

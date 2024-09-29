@@ -6,6 +6,7 @@ import { Education } from "./components/Education/Education";
 import { Experience } from "./components/Experience/Experience";
 import { Technologies } from "./components/Skills/Technologies";
 import { useLayout } from "./useLayout";
+import { Projects } from "./components/Projects/Projects";
 
 export default function Page() {
   const { tab } = useLayout();
@@ -17,6 +18,7 @@ export default function Page() {
       {tab === 0 && <Technologies />}
       {tab === 1 && <Experience />}
       {tab === 1 && <Education />}
+      {tab === 2 && <Projects />}
       {/* <a href="https://www.flaticon.com/free-icons/front-end" title="front end icons">Icons by Flat Icons</a> */}
     </div>
   );

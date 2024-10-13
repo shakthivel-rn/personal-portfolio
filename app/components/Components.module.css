@@ -20,6 +20,12 @@
     font-weight: 500;
 }
 
+.subText {
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
 .skills {
     display: flex;
     flex-direction: column;

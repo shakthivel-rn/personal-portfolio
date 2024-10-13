@@ -30,4 +30,9 @@ const projects = [
     link: "https://shakthivel-rn.github.io/qr-code-component/",
     image: "/images/projects/qr-code-component.png",
   },
+  {
+    title: "Recipe Page",
+    link: "https://shakthivel-rn.github.io/recipe-page/",
+    image: "/images/projects/recipe-page.png",
+  },
 ];

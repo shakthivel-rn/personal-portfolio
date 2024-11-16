@@ -20,6 +20,11 @@ export function Projects() {
 
 const projects = [
   {
+    title: "Four Card Feature Section",
+    link: "https://shakthivel-rn.github.io/four-card-feature-section/",
+    image: "/images/projects/four-card-feature-section.png",
+  },
+  {
     title: "Product Review Card",
     link: "https://shakthivel-rn.github.io/product-preview-card-component/",
     image: "/images/projects/product-page.png",

@@ -46,7 +46,7 @@ const experience = [
     teamDetails: "Song Category & Attribute Management, GSelector",
     jobDetails: [
       {
-        text: "Designing a MongoDB data model using a hybrid approach, combining embedding for high-read performance and referencing to prevent unbounded or bloated documents, ensuring scalability and efficiency",
+        text: "Designing MongoDB data models using a hybrid approach, combining embedding for high-read performance and referencing to prevent unbounded or bloated documents, ensuring scalability and efficiency",
       },
       {
         text: " Developing optimized MongoDB queries with indexing and aggregation pipelines for efficient data retrieval, and employing bulkWrite operations to enhance write performance and reduce database overhead",

@@ -25,6 +25,8 @@ import DotNet from "./technologies/dotnet.svg";
 import Sensor from "./technologies/sensor.svg";
 import DynamoDB from "./technologies/amazondynamodb.svg";
 import Lambda from "./technologies/awslambda.svg";
+import MongoDB from "./technologies/mongodb.svg";
+import ReactQuery from "./technologies/reactquery.svg";
 
 import Algorithms from "./education/algorithms.svg";
 import Application from "./education/application.svg";
@@ -65,6 +67,8 @@ export const iconMap = {
   sensor: Sensor,
   dynamodb: DynamoDB,
   lambda: Lambda,
+  mongodb: MongoDB,
+  reactquery: ReactQuery,
   distributed: Distributed,
   application: Application,
   software: Software,

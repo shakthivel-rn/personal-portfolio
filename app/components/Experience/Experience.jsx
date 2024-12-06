@@ -38,8 +38,34 @@ export function Experience() {
 
 const experience = [
   {
-    startDate: "2023",
+    startDate: "2024",
     endDate: "Present",
+    roleTitle: " Software Engineer",
+    companyLogo: { src: "", width: 0, height: 0 },
+    companyName: "Radio Computing Services (RCS)",
+    teamDetails: "Song Category & Attribute Management, GSelector",
+    jobDetails: [
+      {
+        text: "Designing a MongoDB data model using a hybrid approach, combining embedding for high-read performance and referencing to prevent unbounded or bloated documents, ensuring scalability and efficiency",
+      },
+      {
+        text: " Developing optimized MongoDB queries with indexing and aggregation pipelines for efficient data retrieval, and employing bulkWrite operations to enhance write performance and reduce database overhead",
+      },
+    ],
+    skills: [
+      { name: "TypeScript", logo: "typescript", color: "#3178C6" },
+      { name: "Node.js", logo: "nodedotjs", color: "#5FA04E" },
+      { name: "React", logo: "react", color: "#61DAFB" },
+      { name: "Recoil", logo: "recoil", color: "#3578E5" },
+      { name: "React Query", logo: "reactquery", color: "#FF4154" },
+      { name: "Python", logo: "python" },
+      { name: "AWS", logo: "amazonwebservices", color: "#FF9900" },
+      { name: "MongoDB", logo: "mongodb", color: "#47A248" },
+    ],
+  },
+  {
+    startDate: "2023",
+    endDate: "2024",
     roleTitle: " Software Engineer",
     companyLogo: { src: "/images/iheartmedia.png", width: 100, height: 80 },
     companyName: " iHeartMedia, Inc.",
@@ -74,6 +100,7 @@ const experience = [
       { name: "Node.js", logo: "nodedotjs", color: "#5FA04E" },
       { name: "React", logo: "react", color: "#61DAFB" },
       { name: "Recoil", logo: "recoil", color: "#3578E5" },
+      { name: "React Query", logo: "reactquery", color: "#FF4154" },
       { name: "Python", logo: "python" },
       { name: "AWS", logo: "amazonwebservices", color: "#FF9900" },
       { name: "SQL", logo: "sql" },
@@ -116,6 +143,7 @@ const experience = [
       { name: "Node.js", logo: "nodedotjs", color: "#5FA04E" },
       { name: "React", logo: "react", color: "#61DAFB" },
       { name: "Recoil", logo: "recoil", color: "#3578E5" },
+      { name: "React Query", logo: "reactquery", color: "#FF4154" },
       { name: "AWS", logo: "amazonwebservices", color: "#FF9900" },
       { name: "GraphQL", logo: "graphql", color: "#E10098" },
     ],

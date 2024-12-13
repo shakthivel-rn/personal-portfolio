@@ -20,6 +20,11 @@ export function Projects() {
 
 const projects = [
   {
+    title: "Meet Landing Page",
+    link: "https://shakthivel-rn.github.io/meet-landing-page/",
+    image: "/images/projects/meet-landing-page.png",
+  },
+  {
     title: "Testimonials Grid Section",
     link: "https://shakthivel-rn.github.io/testimonials-grid-section/",
     image: "/images/projects/testimonials-grid.png",

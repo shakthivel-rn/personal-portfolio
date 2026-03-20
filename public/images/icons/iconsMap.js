@@ -27,6 +27,8 @@ import DynamoDB from "./technologies/amazondynamodb.svg";
 import Lambda from "./technologies/awslambda.svg";
 import MongoDB from "./technologies/mongodb.svg";
 import ReactQuery from "./technologies/reactquery.svg";
+import Relay from "./technologies/relay.svg";
+import Hack from "./technologies/hack.svg";
 
 import Algorithms from "./education/algorithms.svg";
 import Application from "./education/application.svg";
@@ -81,4 +83,6 @@ export const iconMap = {
   operatingsystem: OperatingSystems,
   object: Objects,
   networks: Networks,
+  relay: Relay,
+  hack: Hack,
 };

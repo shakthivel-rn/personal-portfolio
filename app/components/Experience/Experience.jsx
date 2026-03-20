@@ -17,7 +17,7 @@ export function Experience() {
             jobDetails,
             skills,
           },
-          index
+          index,
         ) => (
           <ExperienceCard
             key={index}
@@ -30,7 +30,7 @@ export function Experience() {
             jobDetails={jobDetails}
             skills={skills}
           />
-        )
+        ),
       )}
     </div>
   );
@@ -38,18 +38,53 @@ export function Experience() {
 
 const experience = [
   {
-    startDate: "2024",
+    startDate: "2025",
     endDate: "Present",
+    roleTitle: "Software Engineer",
+    companyLogo: { src: "/images/meta.png", width: 180, height: 70 },
+    companyName: "Meta Platforms, Inc.",
+    teamDetails: "Comet Product Infra, Web Platforms",
+    jobDetails: [
+      {
+        text: "Built an AI code modernizer to migrate critical Ads Manager modals to Relay Entrypoints at scale, enabling parallel prefetching of data and modules, eliminating request waterfalls and improving modal load performance.",
+      },
+      {
+        text: "Built a Preloader Evaluator leveraging AI assisted development that natively executes preloader variables and expressions in Hack (PHP), replacing JavaScript runtime evaluation; validated the infrastructure through experiments in Facebook Photos and Instagram Posts, eliminating network round trips and improving evaluation performance.",
+      },
+      {
+        text: "Migrated ~100 rarely changing JS modules in Ads Manager to a CDN backed infrastructure, precomputing module outputs on the server and serving them via CDN instead of recomputing on each request (cache invalidation on updates), developed reusable Claude Code skills and plugins to automate the large scale migration, improving Ads Manager page load performance. ",
+      },
+      {
+        text: "Modularized the linting infrastructure across Meta applications (Facebook, Instagram, WhatsApp, Ads Manager), refactoring a monolithic rule set into application specific configurations, improving maintainability and enabling scalable code quality enforcement across the codebase. ",
+      },
+    ],
+    skills: [
+      { name: "JavaScript", logo: "javascript", color: "#F7DF1E" },
+      { name: "React", logo: "react", color: "#61DAFB" },
+      { name: "GraphQL", logo: "graphql", color: "#E10098" },
+      { name: "Relay", logo: "relay", color: "#ff8000" },
+      { name: "Hack", logo: "hack", color: "#ff8000" },
+    ],
+  },
+  {
+    startDate: "2024",
+    endDate: "2025",
     roleTitle: " Software Engineer",
-    companyLogo: { src: "", width: 0, height: 0 },
+    companyLogo: { src: "/images/rcs.png", width: 100, height: 50 },
     companyName: "Radio Computing Services (RCS)",
     teamDetails: "Song Category & Attribute Management, GSelector",
     jobDetails: [
       {
+        text: "Built modular UI components for creating, managing, and assigning custom station attributes, leveraging Floating UI for dynamic positioning and TanStack Query for efficient data fetching; reduced manual tagging time. ",
+      },
+      {
+        text: "Added performant animations using CSS transform and transition, and improved animation handling across key components by avoiding layout-affecting properties, resulting in reduction in dropped frames and a noticeably smoother user experience.",
+      },
+      {
         text: "Designing MongoDB data models using a hybrid approach, combining embedding for high-read performance and referencing to prevent unbounded or bloated documents, ensuring scalability and efficiency",
       },
       {
-        text: " Developing optimized MongoDB queries with indexing and aggregation pipelines for efficient data retrieval, and employing bulkWrite operations to enhance write performance and reduce database overhead",
+        text: "Developing optimized MongoDB queries with indexing and aggregation pipelines for efficient data retrieval, and employing bulkWrite operations to enhance write performance and reduce database overhead",
       },
     ],
     skills: [

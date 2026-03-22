@@ -12,16 +12,18 @@ export function Skills() {
           in both the theoretical and practical aspects of software engineering.
           My path in technology encompasses a solid education, practical
           internships, and meaningful projects, culminating in my current
-          position as a Software Engineer at iHeartMedia.
+          position as a Software Engineer at Meta.
         </span>
         <span>
-          During my time at iHeartMedia, I have contributed to the development
-          of key applications in the Music Lab and AI Music Scheduler projects,
-          using technologies like Python, TypeScript, and React. I have
-          engineered efficient user management systems, built reusable React
-          components to enhance UI consistency, and optimized backend systems
-          with advanced indexing in AWS DynamoDB, significantly improving
-          performance and reducing latency
+          At Meta, I work on the Comet Product Infrastructure team, building
+          AI-powered tools to modernize infrastructure, automate code migrations
+          at scale, and improve performance across products like Ads Manager,
+          Facebook, Instagram, and WhatsApp. Previously at iHeartMedia, I
+          contributed to the development of key applications like Music Lab, AI
+          Music Scheduler, and Selector Cloud, building reusable components,
+          optimizing frontend and backend systems, and improving performance and
+          reliability using technologies like Python, TypeScript, React, and
+          AWS.
         </span>
       </div>
 
